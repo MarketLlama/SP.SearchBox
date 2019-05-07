@@ -1,0 +1,11 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "version": "1.6.0",
+    "libraryName": "sp-search-box",
+    "libraryId": "6aa1ed49-eea3-410d-8bc1-0a93f8a92a0b",
+    "environment": "spo",
+    "packageManager": "npm",
+    "framework": "react",
+    "isCreatingSolution": true
+  }
+}
