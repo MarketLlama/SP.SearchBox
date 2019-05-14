@@ -3,7 +3,7 @@
   "solution": {
     "name": "sp-search-box-client-side-solution",
     "id": "6aa1ed49-eea3-410d-8bc1-0a93f8a92a0b",
-    "version": "1.0.0.0",
+    "version": "1.0.0.1",
     "includeClientSideAssets": true,
     "skipFeatureDeployment": true
   },

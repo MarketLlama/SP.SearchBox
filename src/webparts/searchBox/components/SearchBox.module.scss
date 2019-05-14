@@ -1,5 +1,20 @@
 @import "~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss";
 
+%animation {
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }
+
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+  animation-name: fadeIn;
+}
+
 .searchBox {
   .container {
     margin: 0px auto;
@@ -10,14 +25,15 @@
     margin: 0 auto;
 
     .searchboxInput {
+      @extend %animation;
       input[type="search"] {
         padding: 10px 15px 10px 10px;
         font-size: 36px;
         color: $ms-color-neutralPrimary;
-        /*removing boder from search box*/
         border: none;
         background-color: $ms-color-themeLight;
         padding-left: 90px;
+        min-height: 68px;
       }
 
       .searchBoxIcon {
@@ -28,6 +44,11 @@
         color: $ms-color-white;
         background-color: $ms-color-themePrimary;
       }
+    }
+  }
+  @media only screen and (max-width: 650px) {
+    .searchboxInput{
+      width: 100%;
     }
   }
 }
