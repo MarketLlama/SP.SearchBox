@@ -5,6 +5,9 @@
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
+    "inlineSources": false,
+    "strictNullChecks": false,
+    "noUnusedLocals": false,
     "declaration": true,
     "sourceMap": true,
     "experimentalDecorators": true,
@@ -24,6 +27,7 @@
       "es2015.collection"
     ]
   },
+  "extends": "./node_modules/@microsoft/rush-stack-compiler-2.7/includes/tsconfig-web.json",
   "include": [
     "src/**/*.ts"
   ],

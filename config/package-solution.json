@@ -5,7 +5,8 @@
     "id": "6aa1ed49-eea3-410d-8bc1-0a93f8a92a0b",
     "version": "1.0.0.1",
     "includeClientSideAssets": true,
-    "skipFeatureDeployment": true
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false
   },
   "paths": {
     "zippedPackage": "solution/sp-search-box.sppkg"
