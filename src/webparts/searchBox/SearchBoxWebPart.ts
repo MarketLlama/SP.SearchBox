@@ -21,7 +21,7 @@ export default class SearchBoxWebPart extends BaseClientSideWebPart<ISearchBoxWe
     const element: React.ReactElement<ISearchBoxProps > = React.createElement(
       SearchBox,
       {
-        description: this.properties.description
+        context : this.context
       }
     );
 

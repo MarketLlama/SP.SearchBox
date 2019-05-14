@@ -18,7 +18,7 @@
     "group": { "default": "Other" },
     "title": { "default": "Search Box" },
     "description": { "default": "SharePoint Search Box" },
-    "officeFabricIconFontName": "Page",
+    "officeFabricIconFontName": "search",
     "properties": {
       "description": "Search Box"
     }
