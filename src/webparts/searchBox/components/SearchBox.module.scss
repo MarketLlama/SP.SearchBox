@@ -48,7 +48,12 @@
   }
   @media only screen and (max-width: 650px) {
     .searchboxInput{
-      width: 100%;
+      input[type="search"] {
+        width: 100% !important;
+      }
+    }
+    .container{
+      width: 100% !important;
     }
   }
 }
