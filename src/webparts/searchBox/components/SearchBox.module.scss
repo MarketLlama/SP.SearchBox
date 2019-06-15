@@ -28,7 +28,7 @@
       margin-left: 10px;
       margin-right: 10px;
       @extend %animation;
-      input[type="search"] {
+      .inputBox{
         padding: 10px 15px 10px 10px;
         font-size: 26px;
         color: $ms-color-neutralPrimary;
@@ -38,6 +38,9 @@
         min-height: 48px;
         width: 100%;
         height: 50px !important;
+        -webkit-box-sizing: border-box;
+        -webkit-appearance: none;
+        -webkit-border-radius:0px;
       }
 
       .searchBoxIcon {
@@ -52,7 +55,7 @@
   }
   @media only screen and (max-width: 650px) {
     .searchboxInput{
-      input[type="search"] {
+      .inputBox{
         width: 100% !important;
       }
     }

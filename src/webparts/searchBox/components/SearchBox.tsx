@@ -20,9 +20,10 @@ export default class SearchBox extends React.Component<ISearchBoxProps, ISearchB
         <div className={styles.container}>
           <div className={styles.searchboxInput} >
             <Icon iconName="Search" className={styles.searchBoxIcon} />
-            <input type="search"
+            <input
               placeholder="Search..."
               onKeyDown={this._onEnter}
+              className={styles.inputBox}
               onChange={event => {this.setState({searchString: event.target.value});}}
             />
           </div>
